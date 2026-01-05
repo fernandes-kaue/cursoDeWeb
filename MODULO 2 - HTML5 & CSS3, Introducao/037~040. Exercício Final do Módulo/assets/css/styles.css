@@ -35,3 +35,20 @@ body {
     font-size: 2em;
     color: #1190ff;
 }
+
+.container-nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #06345d
+}
+
+.container-nav a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #7cc2ff;
+}
+
+.container-nav a:hover {
+    color: #fff;
+}

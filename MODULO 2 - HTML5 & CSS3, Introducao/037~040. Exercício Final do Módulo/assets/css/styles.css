@@ -10,3 +10,28 @@ body {
     color: white;
 }
 
+/* ------------------------------- */
+
+/* estilos gerais */
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/* ------------------------------- */
+
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233F;
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
+}

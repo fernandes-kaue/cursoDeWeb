@@ -96,9 +96,25 @@ body {
     font-weight: bold;
 }
 
+/* ------------------------------- */
 
+
+
+
+
+.container-servicos-contatos {
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
 
 /* ------------------------------- */
 
 
 
+.footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #02111F;
+    color: gray;
+}

@@ -82,3 +82,8 @@ body {
     font-size: 1.5em;
     color: #81c4ff;
 }
+
+.container-quem-somos .servico-texto-realce {
+    color: #fff;
+    font-weight: bold;
+}

@@ -11,21 +11,37 @@
 
         .t1 {
             background-color: lightgray;
-            width: 200px;
+            width: 50%;
             text-align: center;
         }
 
         .t2 {
             background-color: lightblue;
-            width: 200px;
+            width: 50%;
             text-align: center;
         }
 
         .t3 {
             background-color: lightgreen;
-            width: 200px;
+            width: 50%;
             text-align: center;
         }
+
+        .t4 {
+            background-color: lightpink;
+            width: 50%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        #tabela4 td {
+            border: 2px solid #000;
+        }
+
+        #tabela4 td[rowspan] {
+            width: 50%;
+        }
+
     </style>
 
 </head>
@@ -165,15 +181,29 @@
 <table class="table t4" id="tabela4">
 
     <thead>
-
+<!-- n vai usar-->
     </thead>
 
     <tbody>
+        <tr>
+            <td rowspan="2">a<br>a</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td>c</td>
+        </tr>
 
+        <tr>
+            <td rowspan="2">a<br>a</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td>c</td>
+        </tr>
     </tbody>
 
     <tfoot>
-
+    <!-- n vai usar-->
     </tfoot>
 
 </table>

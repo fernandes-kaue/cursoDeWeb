@@ -42,6 +42,22 @@
             width: 50%;
         }
 
+        .t5 {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+
+        .t5 thead {
+            background-color: lightsalmon;
+
+        }
+
+        #col4 {
+            background-color: lightsalmon;
+        }
+
     </style>
 
 </head>
@@ -213,10 +229,46 @@
 <table class="table t5" id="tabela5">
 
     <thead>
+    <tr>
+        <th>
+            a
+        </th>
+        <th colspan="2">
+            b
+        </th>
+        <th colspan="2">
+            d
+        </th>
+    </tr>
 
     </thead>
 
     <tbody>
+
+    <tr>
+        <td id="col4" rowspan="4">a</td>
+    </tr>
+
+    <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+    </tr>
+
+    <tr>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+    </tr>
+
+    <tr>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+    </tr>
 
     </tbody>
 

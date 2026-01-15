@@ -54,7 +54,18 @@
 
         }
 
-        #col4 {
+        .t6 {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+
+        .t6 thead {
+            background-color: lightsalmon;
+        }
+
+        .col {
             background-color: lightsalmon;
         }
 
@@ -246,7 +257,7 @@
     <tbody>
 
     <tr>
-        <td id="col4" rowspan="4">a</td>
+        <td class="col" rowspan="4">a</td>
     </tr>
 
     <tr>
@@ -278,6 +289,67 @@
 
 </table>
 
+<br>
+
+<table class="table t6" id="tabela6">
+
+    <thead>
+    <tr>
+        <th colspan="2">
+            a
+        </th>
+        <th>
+            b
+        </th>
+        <th>
+            c
+        </th>
+        <th>
+            d
+        </th>
+    </tr>
+
+    </thead>
+
+    <tbody>
+
+    <tr>
+        <td class="col" rowspan="5">a</td>
+    </tr>
+
+    <tr>
+        <td class="col" rowspan="2">a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+    </tr>
+
+    <tr>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+    </tr>
+
+    <tr>
+        <td class="col" rowspan="2">k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+
+</table>
 
 </body>
 

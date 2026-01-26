@@ -34,8 +34,14 @@ The repository is organized by course modules. Examples include:
   - Example paths:
     - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/075. FIELDSET & LEGEND/index.html`
     - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/076. INPUT RESET E BUTTON/index.html`
-    - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/078. PATHS RELATIVAS E ABSOLUTAS/exemplo_1/index.html`
-    - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/078. PATHS RELATIVAS E ABSOLUTAS/exemplo_2/index.html`
+
+- `MODULO 4 - CSS 3 NIVEL 2/`
+  - Fonts: local fonts, Google Fonts, and font properties.
+  - Layouts: `display`, `float`, `position` (relative, absolute), `z-index`, `fixed`, and `sticky` positioning.
+  - Flexbox: Introduction, Flex Container properties (align-items, justify-content, etc.), and Flex Item properties.
+  - Example paths:
+    - `MODULO 4 - CSS 3 NIVEL 2/03. LAYOUTS /099. Z-INDEX, FIXED E STICKY/exemplo_3/index.html`
+    - `MODULO 4 - CSS 3 NIVEL 2/04. FLEXBOX /104. PROPRIEDADES DOS FLEX-ITENS/exemplo_1.html`
 
 Each lesson folder typically contains an `index.html` and may include supporting assets under `assets/` (e.g., `css/`, `js/`, `images/`).
 

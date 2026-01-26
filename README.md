@@ -2,96 +2,76 @@
 
 This repository contains exercises and small practical examples created while learning front‑end basics using HTML5 and CSS3, from introductory to intermediate/advanced topics.
 
-## 🚀 Overview
+---
 
+### 🚀 Overview
 The project is a collection of standalone folders. Each folder generally includes an `index.html` demonstrating a specific concept (e.g., links, tables, forms, CSS selectors, floats, units, etc.). Files are intended to be opened directly in a browser; there is no build step or backend.
 
-## 🧰 Stack Detection
+### 🧰 Stack & Requirements
+| Category | Details |
+| :--- | :--- |
+| **Languages** | HTML5, CSS3, minimal JS |
+| **Frameworks** | None (Vanilla) |
+| **Tools** | None (No package manager) |
+| **Requirements** | Modern Web Browser |
+| **Optional** | Code Editor (PhpStorm, VS Code) |
 
-- Language: HTML5 and CSS3
-- JavaScript: minimal/static (only where demonstrations require it)
-- Frameworks/Libraries: none detected
-- Package manager: none detected (no `package.json`, `composer.json`, or similar)
-- Entry points: multiple `index.html` files across module directories (open directly in a browser)
+---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
-The repository is organized by course modules. Examples include:
+The repository is organized by course modules. Each lesson folder typically contains an `index.html` and may include supporting assets.
 
-- `MODULO 2 - HTML5 & CSS3, Introducao/`
-  - Foundations and basic structure (`001`, `002`, ...)
-  - Practical exercises and first website (`014`, `016`)
-  - CSS selectors and button styling (`020`, `030`)
-  - Semantic elements with floats (`033`)
-  - CSS units (`034`)
-  - Final module exercise (`037~040`)
+| Module | Key Topics | Examples / Paths |
+| :--- | :--- | :--- |
+| **Modulo 2** | Foundations, CSS Selectors, Units, Semantic Elements, Floats | `014. Primeiro Site`, `034. Unidades CSS` |
+| **Modulo 3** | Hyperlinks, Tables, Forms (GET/POST, Attributes, Types) | `04. FORMULÁRIOS/075. FIELDSET & LEGEND` |
+| **Modulo 4** | Fonts (Google Fonts), Layouts (Position, Z-Index), Flexbox | `04. FLEXBOX/104. PROPRIEDADES DOS FLEX-ITENS` |
 
-- `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/`
-  - Hyperlinks: common patterns, targets, downloads, bookmarks, email/phone links
-  - Tables: intro, CSS styling, `caption`, `colspan`, `rowspan`, and exercises
-  - General tips: comments, entities, symbols
-  - Forms: intro, GET/POST, input attributes and types (color, checkbox, radio, range, hidden), and basic security notes
-  - Example paths:
-    - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/075. FIELDSET & LEGEND/index.html`
-    - `MODULO 3 - HTML5 INTERMEDIÁRIO & AVANÇADO/04. FORMULÁRIOS/076. INPUT RESET E BUTTON/index.html`
+---
 
-- `MODULO 4 - CSS 3 NIVEL 2/`
-  - Fonts: local fonts, Google Fonts, and font properties.
-  - Layouts: `display`, `float`, `position` (relative, absolute), `z-index`, `fixed`, and `sticky` positioning.
-  - Flexbox: Introduction, Flex Container properties (align-items, justify-content, etc.), and Flex Item properties.
-  - Example paths:
-    - `MODULO 4 - CSS 3 NIVEL 2/03. LAYOUTS /099. Z-INDEX, FIXED E STICKY/exemplo_3/index.html`
-    - `MODULO 4 - CSS 3 NIVEL 2/04. FLEXBOX /104. PROPRIEDADES DOS FLEX-ITENS/exemplo_1.html`
-
-Each lesson folder typically contains an `index.html` and may include supporting assets under `assets/` (e.g., `css/`, `js/`, `images/`).
-
-## ⚙️ Requirements
-
-- A modern web browser (Chrome, Firefox, Edge, Safari, etc.)
-- Optional: a code editor (e.g., PhpStorm, VS Code) if you’d like to explore/edit the source
-
-## ▶️ Quick Start
+### ▶️ Quick Start
 
 No build tools or servers are required — this is a static project.
 
 ```bash
 git clone https://github.com/fernandes-kaue/cursoDeWeb.git
 cd cursoDeWeb
-# pick any lesson directory and open index.html in your browser
+# Open any index.html in your browser
 ```
 
-Alternatively, serve a folder locally (avoids some `file://` restrictions and enables relative path testing):
+**Local Server (Optional):**
+To avoid `file://` restrictions, you can serve folders locally:
+```bash
+python3 -m http.server 8000
+```
 
-- Using Python 3 (no install needed on most systems):
-  ```bash
-  # from the lesson folder you want to serve
-  python3 -m http.server 8000
-  # then visit http://localhost:8000 in your browser
-  ```
-- TODO: If a package manager is adopted later, consider adding a convenience dev server script (e.g., `live-server`, `browser-sync`).
+---
 
-## 📜 Scripts
+### 🛠️ Technical Details
 
-No automation scripts are configured in this repository.
+<details>
+<summary><b>Scripts & Automation</b></summary>
+No automation scripts are configured.
+- TODO: Consider adding `live-server` or `browser-sync`.
+</details>
 
-- TODO: If tooling is introduced later, document commands here (e.g., start, build, format, lint).
+<details>
+<summary><b>Environment Variables</b></summary>
+None. This is a static collection.
+</details>
 
-## 🔐 Environment Variables
+<details>
+<summary><b>Tests</b></summary>
+Manual verification only.
+- TODO: Consider HTML validation or link checks.
+</details>
 
-None. This is a static collection of examples and does not rely on environment variables.
+---
 
-## 🧪 Tests
+### ℹ️ Notes
+- Some form examples post to an external demo endpoint (`https://sys4soft.com/udemy/forms/index.php`) purely for demonstration.
 
-There are no automated tests configured. Verification is performed manually by opening pages in the browser.
-
-- TODO: Consider adding simple checks (e.g., HTML validation, link checks) if needed.
-
-## ℹ️ Notes
-
-- Some form examples post to an external demo endpoint (`https://sys4soft.com/udemy/forms/index.php`) purely for demonstration. No local server is required.
-
-## 📄 License
-
-Educational use only at the moment.
-
-- TODO: Choose and add an explicit open‑source license (e.g., MIT) or clarify usage restrictions.
+### 📄 License
+Educational use only.
+- TODO: Add an explicit open‑source license (e.g., MIT).

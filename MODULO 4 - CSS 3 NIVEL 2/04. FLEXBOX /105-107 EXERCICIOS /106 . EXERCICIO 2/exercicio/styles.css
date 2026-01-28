@@ -1,0 +1,77 @@
+/* Global reset / baseline */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Root defaults */
+html {
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+
+/* Body baseline */
+body {
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    color: #111;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* CABECALHO */
+
+.cabecalho {
+    display: flex;
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+/* CONTAINER CONTEUDO */
+
+.container {
+    display: flex;
+    /*align-items: flex-start;*/
+    justify-content: space-between;
+}
+
+div {
+    min-height: 320px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+}
+
+.left {
+    background-color: #008000;
+    width: 20%;
+}
+
+.content {
+    background-color: #ff8c00;
+    width: 60%;
+}
+
+.right {
+    background-color: #000080;
+    width: 20%;
+}
+
+/* RODAPE */
+
+.rodape {
+    display: flex;
+    background-color: #d63384;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+
